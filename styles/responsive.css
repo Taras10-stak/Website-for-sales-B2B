@@ -1,0 +1,134 @@
+@media screen and (max-width: 1200px) {
+  .rodoContainer {
+    width: 80%;
+    left: 10%;
+    margin: 0;
+    top: 25vh;
+    height: 55vh;
+    z-index: 1000;
+  }
+  .wrap {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  .wrap .homePage header {
+    padding: 0 50px;
+  }
+  .wrap .homePage header nav {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.99);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+  }
+  .wrap .homePage header nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .wrap .homePage header nav ul li {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-radius: 10px;
+  }
+  .wrap .homePage header nav ul li a {
+    margin: 0;
+    color: #fff;
+  }
+  .wrap .homePage header nav .languageBtn select {
+    background-color: #000;
+    color: #fff;
+    margin-top: 50px;
+  }
+  .wrap .homePage header .navBtn {
+    display: flex;
+  }
+  .wrap .homePage .homeContainer {
+    padding: 120px 30px;
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap .homePage .homeContainer h1 {
+    font-size: calc(18px + 0.4vw);
+  }
+  .wrap .homePage .homeContainer .scroll-down {
+    z-index: 0;
+  }
+  .wrap .aboutPage {
+    padding: 30px 0;
+  }
+  .wrap .aboutPage .aboutContainer {
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .wrap .aboutPage .aboutContainer h2 {
+    margin-bottom: 50px;
+  }
+  .wrap .aboutPage .aboutContainer .aboutContainer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrap .aboutPage .aboutContainer .aboutContainer__inner .aboutContainer__innerInfo {
+    width: 100%;
+    padding: 0;
+  }
+  .wrap .aboutPage .aboutContainer .aboutContainer__inner .aboutContainer__innerPhoto {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .wrap .aboutPage .aboutContainer .aboutContainer__inner .aboutContainer__innerPhoto .photoContainer {
+    width: 180px;
+    height: 180px;
+  }
+  .wrap .productPage .productPageContainer {
+    padding: 0 20px;
+  }
+  .wrap .productPage h2 {
+    padding: 0 30px;
+  }
+  .wrap .consultPage {
+    padding: 50px 20px;
+  }
+  .wrap .contactPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+  }
+  .wrap .contactPage .contactPageContainer {
+    flex-direction: column;
+  }
+  .wrap .footer {
+    padding: 0 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .wrap .footer .footerLogo {
+    display: none;
+  }
+  .wrap .footer .company {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */
